@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notes</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="home-page" id="home-page">
+      <header class="header">
+        <div>
+          <h1 class="title">Notes</h1>
+          <p class="animated-line">Write Your Daily Notes Here</p>
+        </div>
+        <div>
+          <input type="search" id="search" placeholder="Search Here">
+          <button id="search-btn" >Search</button>
+         </div>
+      </header>
+      <div class="saved-notes">
+        
+    </div>
+      <img src="add-notes.png" alt="Add Notes" id="add-notes-btn">
+    </div>
+    
+    <div class="input-page" id="input-page">
+      <nav class="nav-bar">
+        <img src="back.png" alt="back" class="nav-btn" id="back-btn"> <br>
+        <img src="save.png" alt="save" class="nav-btn" id="save-btn">
+      </nav>
+      <div class="input-notes">
+        <input type="text" id="input-title" placeholder="Title">
+        <textarea id="input-content" cols="40" rows="33" placeholder="Write something"></textarea>
+      </div>
+    </div>
+  
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
